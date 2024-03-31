@@ -7,6 +7,7 @@ struct student {  // 구조체를 정의
 };
 
 int main() {  
+    printf("[----- [박조현] [2021053017] -----]");
     struct student pst;  // student 구조체 타입의 변수인 pst 선언
 
     printf("size of student = %ld\n", sizeof(struct student));  // student 구조체의 크기를 출력 = 24byte (13 + 4 + 2 + 5(padding) = 24)

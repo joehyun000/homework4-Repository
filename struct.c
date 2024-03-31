@@ -15,7 +15,7 @@ typedef struct {
 } student2;
 
 int main() {
-
+    printf("[----- [박조현] [2021053017] -----]");
     // student1 타입의 st1 변수 선언 및 초기화
     struct student1 st1 = {'A', 100, 'A'};
     printf("st1.lastName = %c\n", st1.lastName);  // st1의 lastName인 'A'를 출력
